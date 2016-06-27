@@ -22,3 +22,13 @@ app/.../MainActivity.java
 
 ##2.生成aar文件
 
+调用 gradle projects(在窗口的右边)>:lib>Tasks>build>assembleRelease。
+
+（初次调用可能会下载一堆文件)
+
+会在 Project目录>lib>build>outputs>aar>下生成lib-release.aar文件。
+
+##3.添加aar依赖
+
+
+
