@@ -6,7 +6,7 @@ AarDependencyDemo,aar文件依赖 教程文件。
 
 #HandsOn
 
-##1.初始化项目
+##1.初始化项目(Branch:1)
 
 项目中有两个Module，一个app module，一个lib module。
 
@@ -28,7 +28,7 @@ app/.../MainActivity.java
 
 会在 `Project目录>lib>build>outputs>aar>`下生成`lib-release.aar`文件。
 
-##3.添加aar依赖
+##3.添加aar依赖(Branch:3）
 
 将之前生成的`lib-release.aar`文件，放到`project目录>app>libs`下。(也可以放到别的目录下，统一就行）
 
