@@ -59,3 +59,13 @@ dependencies {
 
 完成。
 
+#修改aar
+
+如果要修改aar依赖的module，应该要
+
+1.把aar依赖换回module依赖
+
+2.修改module，调试程序
+
+3.调试成功后，再重新生成aar文件，再把moudle依赖换成aar依赖
+
